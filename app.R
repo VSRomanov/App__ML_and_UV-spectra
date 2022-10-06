@@ -266,8 +266,7 @@ server <- function(input,output, session){
       # the spectra cleaning:
       if (version == "local_computer") {
         dir_temp <- "Shiny_App_Temp"
-#        dir.create(dir_temp)
-        
+
         if (OS == "linux") {
           file_path_precleaned <- paste0(dir_temp, "/Precleaned.csv")
         } else if (OS == "windows") {
@@ -345,9 +344,7 @@ server <- function(input,output, session){
     }
     
     spectra[[1]] <- ssp_corrected_Measurements.cumulative    
-    
-#    print(head(ssp_corrected_Measurements.cumulative))
-#    print(head(colnames(ssp_corrected_Measurements.cumulative) %in% blanks))
+
     
     
     ### Background Correction, Centered spectra, Variance-scaled spectra
