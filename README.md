@@ -1,5 +1,5 @@
 
-# My cloud-deployed App: ML prediction of bio-contamination by UV-spectra
+# My cloud-deployed App: ML prediction of bio-contamination from UV-spectra
 The Shiny App for bio-contamination prediction of user-provided spectra samples was created during my stay in 
 [Prof. Rainer König lab](https://www.uniklinikum-jena.de/infektionsmedizin/Forschung/Modelling.html) as part of the project on 
 construction a germ detection device employing UV LEDs. It is deployed at the free-of-charge Shiny server:
